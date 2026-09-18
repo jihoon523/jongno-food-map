@@ -119,6 +119,35 @@
   margin: 0;
 }
 
+/* 층 탭 */
+.floors {
+  display: flex;
+  gap: 4px;
+  margin-top: 12px;
+  padding: 3px;
+  border-radius: 8px;
+  background: #f0f0f0;
+}
+
+.floors__tab {
+  flex: 1;
+  padding: 5px 0;
+  border: 0;
+  border-radius: 6px;
+  background: none;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.floors__tab.is-active {
+  background: var(--bg);
+  color: var(--fg);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+
 /* 건물 내 식당 목록 */
 .list {
   list-style: none;
@@ -159,6 +188,7 @@
 }
 
 .list__name {
+  grid-column: 2;
   font-weight: 600;
 }
 
@@ -169,6 +199,7 @@
 }
 
 .list__dot {
+  grid-column: 3;
   grid-row: 1 / 3;
   width: 8px;
   height: 8px;

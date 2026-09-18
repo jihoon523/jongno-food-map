@@ -36,6 +36,18 @@
     "coords": [126.97988, 37.57085]
   },
   {
+    "id": "gamchon",
+    "name": "감촌",
+    "category": "korean",
+    "price": "1만원대",
+    "floor": "1F",
+    "building": "르메이에르 종로타운",
+    "menu": "순두부찌개, 청국장",
+    "rating": 4.0,
+    "review": "든든한 한식 점심, 회전이 빠름",
+    "coords": [126.97988, 37.57085]
+  },
+  {
     "id": "cheongjinok",
     "name": "청진옥",
     "category": "noodle",
