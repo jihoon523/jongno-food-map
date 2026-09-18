@@ -81,7 +81,12 @@ function groupByBuilding(restaurants) {
     }
     g.restaurants.push(r)
   }
-  return result
+  // 건물에 식당이 하나뿐이면 굳이 묶지 않고 개별 마커로 보여준다
+  return result.map((g) =>
+    g.kind === 'building' && g.restaurants.length === 1
+      ? { kind: 'single', restaurant: g.restaurants[0], coords: g.coords }
+      : g,
+  )
 }
 
 function escapeHtml(s) {

@@ -198,8 +198,8 @@
     "id": "lee-gimbap",
     "name": "리김밥 광화문 D타워점",
     "category": "korean",
-    "price": "1만원대",
-    "floor": "B1",
+    "price": "1만원 이하",
+    "floor": "1F",
     "building": "D타워",
     "menu": "김밥",
     "rating": null,
@@ -211,12 +211,12 @@
   },
   {
     "id": "susu-coffee",
-    "name": "수수커피 디타워",
+    "name": "수수커피 디타워점",
     "category": "cafe",
     "price": "5천원대",
     "floor": "1F",
     "building": "D타워",
-    "menu": "커피",
+    "menu": "비엔나 커피",
     "rating": null,
     "review": "",
     "coords": [
@@ -225,18 +225,33 @@
     ]
   },
   {
-    "id": "alibaba-gimbap",
-    "name": "알리바바 쏙쏙김밥 종로타워점",
-    "category": "korean",
-    "price": "1만원대",
-    "floor": "B1",
-    "building": "종로타워",
-    "menu": "김밥",
+    "id": "mad-for-garlic",
+    "name": "매드포갈릭 광화문D타워점",
+    "category": "western",
+    "price": "3만원대",
+    "floor": "3F",
+    "building": "D타워",
+    "menu": "갈릭 스노잉 피자, 파스타",
     "rating": null,
     "review": "",
     "coords": [
-      126.98339,
-      37.57057
+      126.97893,
+      37.57092
+    ]
+  },
+  {
+    "id": "tamarind",
+    "name": "타마린드",
+    "category": "asian",
+    "price": "2만원대",
+    "floor": "5F",
+    "building": "D타워",
+    "menu": "매운 소고기 쌀국수, 우대갈비",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97893,
+      37.57092
     ]
   },
   {
@@ -246,7 +261,52 @@
     "price": "5천원대",
     "floor": "1F",
     "building": "종로타워",
-    "menu": "리저브 커피",
+    "menu": "리저브 커피 (1~2층)",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.98339,
+      37.57057
+    ]
+  },
+  {
+    "id": "solsot-jongno",
+    "name": "솔솥 종로타워점",
+    "category": "korean",
+    "price": "1만원대",
+    "floor": "B1",
+    "building": "종로타워",
+    "menu": "스테이크 솥밥 (17,900원)",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.98339,
+      37.57057
+    ]
+  },
+  {
+    "id": "shabu-garden",
+    "name": "샤브가든 종로타워점",
+    "category": "korean",
+    "price": "1만원대",
+    "floor": "B2",
+    "building": "종로타워",
+    "menu": "샤브샤브 무한리필",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.98339,
+      37.57057
+    ]
+  },
+  {
+    "id": "hanyang-chinese",
+    "name": "한양중식 종로점",
+    "category": "chinese",
+    "price": "1만원대",
+    "floor": "B2",
+    "building": "종로타워",
+    "menu": "쇠고기짬뽕 (13,000원)",
     "rating": null,
     "review": "",
     "coords": [
@@ -661,16 +721,16 @@
   },
   {
     "id": "felt",
-    "name": "펠트 청계천점",
+    "name": "펠트커피 청계천점",
     "category": "cafe",
     "price": "5천원대",
     "floor": "1F",
-    "building": "시그니처타워",
+    "building": "",
     "menu": "커피",
     "rating": null,
     "review": "",
     "coords": [
-      126.97882,
+      126.97878,
       37.56879
     ]
   },
@@ -680,38 +740,23 @@
     "category": "western",
     "price": "1만원대",
     "floor": "1F",
-    "building": "시그니처타워",
+    "building": "",
     "menu": "수제버거",
     "rating": null,
     "review": "",
     "coords": [
-      126.97882,
-      37.56879
-    ]
-  },
-  {
-    "id": "crispy-fresh",
-    "name": "크리스피프레시 광화문점",
-    "category": "western",
-    "price": "1만원대",
-    "floor": "1F",
-    "building": "케이스퀘어시티",
-    "menu": "샐러드",
-    "rating": null,
-    "review": "",
-    "coords": [
-      126.9802,
-      37.56856
+      126.9789,
+      37.56876
     ]
   },
   {
     "id": "allegria",
-    "name": "알레그리아 케이스퀘어시티점",
+    "name": "알레그리아 광화문 케이스퀘어시티점",
     "category": "cafe",
     "price": "5천원대",
     "floor": "1F",
     "building": "케이스퀘어시티",
-    "menu": "커피",
+    "menu": "스페셜티 커피",
     "rating": null,
     "review": "",
     "coords": [
