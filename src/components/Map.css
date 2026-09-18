@@ -1,0 +1,15 @@
+.map {
+  position: absolute;
+  inset: 0;
+}
+
+/* Mapbox 기본 컨트롤을 좀 더 차분하게 */
+.mapboxgl-ctrl-group {
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
+
+.mapboxgl-ctrl-top-right {
+  top: max(8px, env(safe-area-inset-top));
+  right: max(8px, env(safe-area-inset-right));
+}
