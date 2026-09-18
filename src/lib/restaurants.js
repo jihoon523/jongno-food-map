@@ -11,6 +11,7 @@ export const CATEGORIES = [
   { id: 'western', label: '양식' },
   { id: 'meat', label: '고기' },
   { id: 'noodle', label: '면·국밥' },
+  { id: 'asian', label: '아시안' },
   { id: 'cafe', label: '카페' },
 ]
 
@@ -22,6 +23,7 @@ export const CATEGORY_COLOR = {
   western: '#7a4fd6',
   meat: '#a0522d',
   noodle: '#2f9e6b',
+  asian: '#0e9aa7',
   cafe: '#6b6b6b',
 }
 

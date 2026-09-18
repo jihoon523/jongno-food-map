@@ -135,13 +135,13 @@
     ]
   },
   {
-    "id": "pho-hanoi",
-    "name": "포하노이",
-    "category": "noodle",
+    "id": "yeonan-sikdang",
+    "name": "연안식당 종로그랑서울점",
+    "category": "korean",
     "price": "1만원대",
     "floor": "B1",
     "building": "그랑서울",
-    "menu": "쌀국수",
+    "menu": "꼬막비빔밥 (12,000원)",
     "rating": null,
     "review": "",
     "coords": [
@@ -150,13 +150,43 @@
     ]
   },
   {
-    "id": "jeongnam",
-    "name": "정남미명과 종로2호점",
+    "id": "cuchara-jongno",
+    "name": "쿠차라 종로점",
+    "category": "western",
+    "price": "1만원대",
+    "floor": "B1",
+    "building": "그랑서울",
+    "menu": "멕시칸",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.9814,
+      37.571
+    ]
+  },
+  {
+    "id": "bruda",
+    "name": "브루다",
+    "category": "western",
+    "price": "1만원 이하",
+    "floor": "B1",
+    "building": "그랑서울",
+    "menu": "수제 샌드위치",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.9814,
+      37.571
+    ]
+  },
+  {
+    "id": "pittsburgh",
+    "name": "카페테리아 피츠버그",
     "category": "cafe",
     "price": "5천원대",
-    "floor": "1F",
+    "floor": "B1",
     "building": "그랑서울",
-    "menu": "떡, 디저트",
+    "menu": "커피, 빵",
     "rating": null,
     "review": "",
     "coords": [
@@ -225,58 +255,13 @@
     ]
   },
   {
-    "id": "onsen",
-    "name": "온센 광화문점",
-    "category": "japanese",
-    "price": "1만원대",
-    "floor": "B1",
-    "building": "SFC몰",
-    "menu": "돈카츠",
-    "rating": null,
-    "review": "",
-    "coords": [
-      126.97779,
-      37.56837
-    ]
-  },
-  {
-    "id": "momoya",
-    "name": "모모야 광화문점",
-    "category": "japanese",
-    "price": "1만원대",
-    "floor": "B1",
-    "building": "SFC몰",
-    "menu": "일식",
-    "rating": null,
-    "review": "",
-    "coords": [
-      126.97779,
-      37.56837
-    ]
-  },
-  {
-    "id": "noya",
-    "name": "노야 광화문SFC",
-    "category": "japanese",
-    "price": "1만원대",
-    "floor": "B1",
-    "building": "SFC몰",
-    "menu": "라멘",
-    "rating": null,
-    "review": "",
-    "coords": [
-      126.97779,
-      37.56837
-    ]
-  },
-  {
-    "id": "bodol-miyeok",
-    "name": "보돌미역 광화문점",
+    "id": "yeouido-samgyetang",
+    "name": "여의도삼계탕",
     "category": "korean",
-    "price": "1만원대",
+    "price": "2만원대",
     "floor": "B1",
     "building": "SFC몰",
-    "menu": "미역국",
+    "menu": "삼계탕",
     "rating": null,
     "review": "",
     "coords": [
@@ -300,13 +285,13 @@
     ]
   },
   {
-    "id": "the-place",
-    "name": "더플레이스 광화문SFC점",
+    "id": "downtowner",
+    "name": "다운타우너",
     "category": "western",
-    "price": "2만원대",
+    "price": "1만원대",
     "floor": "B1",
     "building": "SFC몰",
-    "menu": "피자, 파스타",
+    "menu": "수제버거",
     "rating": null,
     "review": "",
     "coords": [
@@ -315,13 +300,43 @@
     ]
   },
   {
-    "id": "shaibana",
-    "name": "샤이바나 광화문점",
-    "category": "western",
+    "id": "shima-sushi",
+    "name": "시마스시",
+    "category": "japanese",
     "price": "2만원대",
     "floor": "B1",
     "building": "SFC몰",
-    "menu": "이탈리안",
+    "menu": "회전초밥",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97779,
+      37.56837
+    ]
+  },
+  {
+    "id": "saint-augustin",
+    "name": "생어거스틴",
+    "category": "asian",
+    "price": "2만원대",
+    "floor": "B1",
+    "building": "SFC몰",
+    "menu": "태국 요리",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97779,
+      37.56837
+    ]
+  },
+  {
+    "id": "twoplus-deungsim",
+    "name": "투뿔등심",
+    "category": "meat",
+    "price": "4만원대",
+    "floor": "B1",
+    "building": "SFC몰",
+    "menu": "한우 등심",
     "rating": null,
     "review": "",
     "coords": [
@@ -360,53 +375,8 @@
     ]
   },
   {
-    "id": "twoplus-steak",
-    "name": "투뿔 코리안 스테이크하우스",
-    "category": "meat",
-    "price": "3만원대",
-    "floor": "B1",
-    "building": "SFC몰",
-    "menu": "한우 스테이크",
-    "rating": null,
-    "review": "",
-    "coords": [
-      126.97779,
-      37.56837
-    ]
-  },
-  {
-    "id": "samwon-garden",
-    "name": "삼원가든 투뿔등심 광화문점",
-    "category": "meat",
-    "price": "4만원대",
-    "floor": "B1",
-    "building": "SFC몰",
-    "menu": "한우 등심",
-    "rating": null,
-    "review": "",
-    "coords": [
-      126.97779,
-      37.56837
-    ]
-  },
-  {
-    "id": "laderach",
-    "name": "레더라",
-    "category": "cafe",
-    "price": "1만원대",
-    "floor": "B1",
-    "building": "SFC몰",
-    "menu": "초콜릿, 디저트",
-    "rating": null,
-    "review": "",
-    "coords": [
-      126.97779,
-      37.56837
-    ]
-  },
-  {
-    "id": "mahogany-sfc",
-    "name": "마호가니 커피 SFC점",
+    "id": "center-coffee",
+    "name": "센터커피",
     "category": "cafe",
     "price": "5천원대",
     "floor": "B1",
@@ -420,13 +390,268 @@
     ]
   },
   {
-    "id": "hotel-douce",
-    "name": "오뗄두스 광화문점",
+    "id": "super-matcha",
+    "name": "슈퍼말차",
     "category": "cafe",
-    "price": "1만원대",
+    "price": "5천원대",
     "floor": "B1",
     "building": "SFC몰",
+    "menu": "말차",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97779,
+      37.56837
+    ]
+  },
+  {
+    "id": "konditorei-oven",
+    "name": "콘디토리 오븐",
+    "category": "cafe",
+    "price": "5천원대",
+    "floor": "B1",
+    "building": "SFC몰",
+    "menu": "구움과자",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97779,
+      37.56837
+    ]
+  },
+  {
+    "id": "onsen",
+    "name": "온센 광화문점",
+    "category": "japanese",
+    "price": "1만원대",
+    "floor": "B2",
+    "building": "SFC몰",
+    "menu": "텐동",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97779,
+      37.56837
+    ]
+  },
+  {
+    "id": "momoya",
+    "name": "모모야 광화문점",
+    "category": "japanese",
+    "price": "1만원대",
+    "floor": "B2",
+    "building": "SFC몰",
+    "menu": "돈까스",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97779,
+      37.56837
+    ]
+  },
+  {
+    "id": "noya",
+    "name": "노야 광화문SFC",
+    "category": "japanese",
+    "price": "2만원대",
+    "floor": "B2",
+    "building": "SFC몰",
+    "menu": "샤브샤브, 스키야키",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97779,
+      37.56837
+    ]
+  },
+  {
+    "id": "ojeje",
+    "name": "오제제",
+    "category": "japanese",
+    "price": "1만원대",
+    "floor": "B2",
+    "building": "SFC몰",
+    "menu": "우동, 소바, 돈가츠",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97779,
+      37.56837
+    ]
+  },
+  {
+    "id": "chai797",
+    "name": "Chai797",
+    "category": "chinese",
+    "price": "2만원대",
+    "floor": "B2",
+    "building": "SFC몰",
+    "menu": "중식",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97779,
+      37.56837
+    ]
+  },
+  {
+    "id": "solsot",
+    "name": "솔솥",
+    "category": "korean",
+    "price": "1만원대",
+    "floor": "B2",
+    "building": "SFC몰",
+    "menu": "솥밥",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97779,
+      37.56837
+    ]
+  },
+  {
+    "id": "gyeongseong-jangeo",
+    "name": "경성장어",
+    "category": "korean",
+    "price": "3만원대",
+    "floor": "B2",
+    "building": "SFC몰",
+    "menu": "장어",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97779,
+      37.56837
+    ]
+  },
+  {
+    "id": "tinh-tinh",
+    "name": "띤띤",
+    "category": "asian",
+    "price": "1만원대",
+    "floor": "B2",
+    "building": "SFC몰",
+    "menu": "베트남 분짜",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97779,
+      37.56837
+    ]
+  },
+  {
+    "id": "ganga",
+    "name": "강가 무교점",
+    "category": "asian",
+    "price": "2만원대",
+    "floor": "B2",
+    "building": "SFC몰",
+    "menu": "인도 커리",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97779,
+      37.56837
+    ]
+  },
+  {
+    "id": "butchers-cut",
+    "name": "붓처스컷",
+    "category": "meat",
+    "price": "3만원대",
+    "floor": "B2",
+    "building": "SFC몰",
+    "menu": "스테이크",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97779,
+      37.56837
+    ]
+  },
+  {
+    "id": "bareun-gogi",
+    "name": "바른고기 정육점",
+    "category": "meat",
+    "price": "3만원대",
+    "floor": "B2",
+    "building": "SFC몰",
+    "menu": "한우 구이",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97779,
+      37.56837
+    ]
+  },
+  {
+    "id": "gouga",
+    "name": "고우가",
+    "category": "meat",
+    "price": "4만원대",
+    "floor": "B2",
+    "building": "SFC몰",
+    "menu": "한우 다이닝",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97779,
+      37.56837
+    ]
+  },
+  {
+    "id": "apgujeong-sandwich",
+    "name": "압구정샌드위치",
+    "category": "western",
+    "price": "1만원대",
+    "floor": "B2",
+    "building": "SFC몰",
+    "menu": "샌드위치",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97779,
+      37.56837
+    ]
+  },
+  {
+    "id": "obmin",
+    "name": "오브민",
+    "category": "cafe",
+    "price": "5천원대",
+    "floor": "B2",
+    "building": "SFC몰",
     "menu": "디저트",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97779,
+      37.56837
+    ]
+  },
+  {
+    "id": "let-it-be",
+    "name": "렛잇비",
+    "category": "cafe",
+    "price": "5천원대",
+    "floor": "B2",
+    "building": "SFC몰",
+    "menu": "타르트",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97779,
+      37.56837
+    ]
+  },
+  {
+    "id": "uovo-house",
+    "name": "우오보 하우스",
+    "category": "western",
+    "price": "2만원대",
+    "floor": "B3",
+    "building": "SFC몰",
+    "menu": "파스타, 와인",
     "rating": null,
     "review": "",
     "coords": [
@@ -662,7 +887,7 @@
   {
     "id": "om",
     "name": "Om Restaurant",
-    "category": "western",
+    "category": "asian",
     "price": "2만원대",
     "floor": "B1",
     "building": "",
@@ -1287,36 +1512,6 @@
     "coords": [
       126.97879,
       37.56941
-    ]
-  },
-  {
-    "id": "butchers-cut",
-    "name": "붓처스컷",
-    "category": "meat",
-    "price": "3만원대",
-    "floor": "1F",
-    "building": "",
-    "menu": "스테이크",
-    "rating": null,
-    "review": "",
-    "coords": [
-      126.97799,
-      37.56842
-    ]
-  },
-  {
-    "id": "ganga",
-    "name": "강가",
-    "category": "western",
-    "price": "2만원대",
-    "floor": "1F",
-    "building": "",
-    "menu": "인도 커리",
-    "rating": null,
-    "review": "",
-    "coords": [
-      126.97779,
-      37.56846
     ]
   },
   {
