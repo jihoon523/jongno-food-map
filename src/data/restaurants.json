@@ -1,1 +1,62 @@
-[]
+[
+  {
+    "id": "mijin",
+    "name": "미진",
+    "category": "noodle",
+    "price": "1만원대",
+    "floor": "1F",
+    "building": "르메이에르 종로타운",
+    "menu": "메밀국수",
+    "rating": 4.3,
+    "review": "광화문 메밀국수의 기준. 점심엔 줄 서야 함",
+    "coords": [126.97988, 37.57085]
+  },
+  {
+    "id": "seorin-nakji",
+    "name": "서린낙지",
+    "category": "korean",
+    "price": "2만원대",
+    "floor": "2F",
+    "building": "르메이에르 종로타운",
+    "menu": "낙지볶음, 조개탕",
+    "rating": 4.1,
+    "review": "매운 낙지볶음에 조개탕 조합이 정석",
+    "coords": [126.97988, 37.57085]
+  },
+  {
+    "id": "haori",
+    "name": "하오리",
+    "category": "chinese",
+    "price": "1만원대",
+    "floor": "B1",
+    "building": "르메이에르 종로타운",
+    "menu": "짬뽕, 탕수육",
+    "rating": 3.9,
+    "review": "직장인 점심 중식 무난",
+    "coords": [126.97988, 37.57085]
+  },
+  {
+    "id": "cheongjinok",
+    "name": "청진옥",
+    "category": "noodle",
+    "price": "1만원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "해장국",
+    "rating": 4.2,
+    "review": "1937년부터 이어온 종로 해장국집",
+    "coords": [126.97941, 37.57172]
+  },
+  {
+    "id": "head-steak",
+    "name": "Head Steak",
+    "category": "western",
+    "price": "3만원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "스테이크",
+    "rating": 4.0,
+    "review": "가성비 스테이크, 저녁 예약 권장",
+    "coords": [126.97952, 37.57238]
+  }
+]

@@ -1,0 +1,53 @@
+.marker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  font: inherit;
+  /* 마커 좌표는 dot 중심에 오도록 anchor:'top' 기준으로 살짝 올린다 */
+  transform: translateY(-7px);
+}
+
+.marker__dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
+}
+
+.marker__label {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--fg);
+  white-space: nowrap;
+  text-shadow:
+    0 0 3px #fff,
+    0 0 3px #fff,
+    0 0 3px #fff;
+}
+
+/* 건물 마커: 식당 개수를 안에 표시 */
+.marker--building .marker__dot {
+  width: 24px;
+  height: 24px;
+  display: grid;
+  place-items: center;
+  background: var(--fg);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.marker--building {
+  transform: translateY(-12px);
+}
+
+.marker:hover .marker__dot {
+  transform: scale(1.15);
+}

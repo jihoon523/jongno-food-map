@@ -14,6 +14,17 @@ export const CATEGORIES = [
   { id: 'cafe', label: '카페' },
 ]
 
+// 마커 색상 (카테고리별)
+export const CATEGORY_COLOR = {
+  korean: '#d94f3d',
+  japanese: '#3b6fd6',
+  chinese: '#d98a1c',
+  western: '#7a4fd6',
+  meat: '#a0522d',
+  noodle: '#2f9e6b',
+  cafe: '#6b6b6b',
+}
+
 /**
  * @typedef {Object} Restaurant
  * @property {string} id
