@@ -1,9 +1,10 @@
-import { useCallback, useEffect, useState } from 'react'
+import { useCallback, useEffect, useMemo, useState } from 'react'
 import { MAPBOX_TOKEN } from './lib/config'
 import { getRestaurants } from './lib/restaurants'
 import Map from './components/Map'
 import Markers from './components/Markers'
 import Card from './components/Card'
+import Filter from './components/Filter'
 import './App.css'
 
 function App() {
@@ -11,10 +12,20 @@ function App() {
   const [restaurants, setRestaurants] = useState([])
   // { kind:'single', restaurant, from? } | { kind:'building', name, restaurants } | null
   const [selected, setSelected] = useState(null)
+  // 켜진 카테고리 id 집합. 비어 있으면 전체 표시
+  const [categories, setCategories] = useState(() => new Set())
 
   useEffect(() => {
     getRestaurants().then(setRestaurants)
   }, [])
+
+  const visible = useMemo(
+    () =>
+      categories.size === 0
+        ? restaurants
+        : restaurants.filter((r) => categories.has(r.category)),
+    [restaurants, categories],
+  )
 
   const handleReady = useCallback((m) => setMap(m), [])
   const handleSelect = useCallback((item) => setSelected(item), [])
@@ -50,7 +61,8 @@ function App() {
   return (
     <div className="app">
       <Map onReady={handleReady} />
-      <Markers map={map} restaurants={restaurants} onSelect={handleSelect} />
+      <Filter active={categories} onChange={setCategories} />
+      <Markers map={map} restaurants={visible} onSelect={handleSelect} />
       <Card
         selected={selected}
         onSelectRestaurant={handleSelectInBuilding}

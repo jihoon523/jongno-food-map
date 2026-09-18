@@ -1,0 +1,59 @@
+.filter {
+  position: absolute;
+  z-index: 2;
+  top: max(8px, env(safe-area-inset-top));
+  left: 0;
+  right: 56px; /* 지도 컨트롤 자리 */
+  display: flex;
+  gap: 6px;
+  padding: 4px 12px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+.filter::-webkit-scrollbar {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .filter {
+    top: 12px;
+    left: 12px;
+    right: auto;
+    padding: 0;
+    flex-wrap: wrap;
+  }
+}
+
+.filter__chip {
+  --chip: #888;
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 6px 12px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--bg);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  font: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  color: #444;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.filter__chip.is-active {
+  background: var(--fg);
+  border-color: var(--fg);
+  color: #fff;
+}
+
+.filter__dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--chip);
+}
