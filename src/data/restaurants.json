@@ -225,6 +225,36 @@
     ]
   },
   {
+    "id": "fourb",
+    "name": "포비 광화문",
+    "category": "cafe",
+    "price": "5천원대",
+    "floor": "1F",
+    "building": "D타워",
+    "menu": "베이글, 드립커피",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97893,
+      37.57092
+    ]
+  },
+  {
+    "id": "on-the-border",
+    "name": "온더보더 광화문 D타워점",
+    "category": "western",
+    "price": "2만원대",
+    "floor": "2F",
+    "building": "D타워",
+    "menu": "타코, 화이타",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97893,
+      37.57092
+    ]
+  },
+  {
     "id": "mad-for-garlic",
     "name": "매드포갈릭 광화문D타워점",
     "category": "western",
@@ -240,13 +270,163 @@
     ]
   },
   {
+    "id": "hibarin",
+    "name": "히바린 광화문D타워점",
+    "category": "japanese",
+    "price": "2만원대",
+    "floor": "3F",
+    "building": "D타워",
+    "menu": "히바린반상, 흑돼지 카츠",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97893,
+      37.57092
+    ]
+  },
+  {
+    "id": "seokgalbi",
+    "name": "광화문석갈비 D타워점",
+    "category": "meat",
+    "price": "2만원대",
+    "floor": "3F",
+    "building": "D타워",
+    "menu": "돌판구이, 등갈비 튀김",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97893,
+      37.57092
+    ]
+  },
+  {
+    "id": "chaal",
+    "name": "차알 광화문디타워점",
+    "category": "chinese",
+    "price": "1만원대",
+    "floor": "3F",
+    "building": "D타워",
+    "menu": "마라탕면, 미국식 중식",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97893,
+      37.57092
+    ]
+  },
+  {
+    "id": "yamaya",
+    "name": "야마야 디타워점",
+    "category": "japanese",
+    "price": "1만원대",
+    "floor": "4F",
+    "building": "D타워",
+    "menu": "모츠나베 (명란 무한리필)",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97893,
+      37.57092
+    ]
+  },
+  {
+    "id": "deokhu",
+    "name": "덕후선생 광화문디타워점",
+    "category": "chinese",
+    "price": "3만원대",
+    "floor": "4F",
+    "building": "D타워",
+    "menu": "북경오리",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97893,
+      37.57092
+    ]
+  },
+  {
+    "id": "susa",
+    "name": "수사 광화문D타워점",
+    "category": "japanese",
+    "price": "3만원대",
+    "floor": "4F",
+    "building": "D타워",
+    "menu": "스시 뷔페",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97893,
+      37.57092
+    ]
+  },
+  {
     "id": "tamarind",
-    "name": "타마린드",
+    "name": "타마린드 디타워점",
     "category": "asian",
     "price": "2만원대",
     "floor": "5F",
     "building": "D타워",
     "menu": "매운 소고기 쌀국수, 우대갈비",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97893,
+      37.57092
+    ]
+  },
+  {
+    "id": "modern-shabu",
+    "name": "모던샤브하우스 광화문D타워점",
+    "category": "korean",
+    "price": "1만원대",
+    "floor": "5F",
+    "building": "D타워",
+    "menu": "샤브샤브 무한리필",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97893,
+      37.57092
+    ]
+  },
+  {
+    "id": "hanyukgam",
+    "name": "한육감 광화문 D타워점",
+    "category": "meat",
+    "price": "4만원대",
+    "floor": "5F",
+    "building": "D타워",
+    "menu": "한우 구이",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97893,
+      37.57092
+    ]
+  },
+  {
+    "id": "dr-robbin",
+    "name": "닥터로빈 광화문점",
+    "category": "western",
+    "price": "2만원대",
+    "floor": "5F",
+    "building": "D타워",
+    "menu": "파스타, 단호박스프",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97893,
+      37.57092
+    ]
+  },
+  {
+    "id": "powerplant",
+    "name": "파워플랜트",
+    "category": "western",
+    "price": "2만원대",
+    "floor": "5F",
+    "building": "D타워",
+    "menu": "크래프트 비어, 피자, 타코",
     "rating": null,
     "review": "",
     "coords": [
