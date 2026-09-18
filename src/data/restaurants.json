@@ -49,9 +49,9 @@
     "name": "감촌",
     "category": "korean",
     "price": "1만원대",
-    "floor": "1F",
+    "floor": "5F",
     "building": "르메이에르 종로타운",
-    "menu": "순두부찌개, 청국장",
+    "menu": "순두부찌개 (16,000원)",
     "rating": 4,
     "review": "든든한 한식 점심, 회전이 빠름",
     "coords": [
@@ -64,26 +64,11 @@
     "name": "하오리",
     "category": "chinese",
     "price": "1만원대",
-    "floor": "B1",
+    "floor": "1F",
     "building": "르메이에르 종로타운",
-    "menu": "짬뽕, 탕수육",
+    "menu": "광동식 오리덮밥, 콤보 라이스",
     "rating": 3.9,
     "review": "직장인 점심 중식 무난",
-    "coords": [
-      126.97988,
-      37.57085
-    ]
-  },
-  {
-    "id": "yomat",
-    "name": "요맛 광화문점",
-    "category": "korean",
-    "price": "1만원대",
-    "floor": "B1",
-    "building": "르메이에르 종로타운",
-    "menu": "덮밥",
-    "rating": null,
-    "review": "",
     "coords": [
       126.97988,
       37.57085
@@ -96,7 +81,52 @@
     "price": "1만원대",
     "floor": "B1",
     "building": "르메이에르 종로타운",
-    "menu": "중식",
+    "menu": "짜장면, 짬뽕",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97988,
+      37.57085
+    ]
+  },
+  {
+    "id": "tsuki-ramen",
+    "name": "츠키라멘 종로 르메이에르점",
+    "category": "japanese",
+    "price": "1만원대",
+    "floor": "B1",
+    "building": "르메이에르 종로타운",
+    "menu": "츠케멘, 이에케라멘",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97988,
+      37.57085
+    ]
+  },
+  {
+    "id": "kalguksu-ggeullim",
+    "name": "칼국수의 끌림",
+    "category": "noodle",
+    "price": "1만원 이하",
+    "floor": "B1",
+    "building": "르메이에르 종로타운",
+    "menu": "손칼국수 (7,000원)",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97988,
+      37.57085
+    ]
+  },
+  {
+    "id": "guksunamu",
+    "name": "국수나무 종로 르메이에르점",
+    "category": "noodle",
+    "price": "1만원 이하",
+    "floor": "B1",
+    "building": "르메이에르 종로타운",
+    "menu": "국수, 돈까스",
     "rating": null,
     "review": "",
     "coords": [
