@@ -25,3 +25,8 @@ src/
   data/         restaurants.json
   lib/          config.js (좌표·상수), restaurants.js (데이터 접근)
 ```
+
+## 배포
+- 주소: https://jihoon523.github.io/jongno-food-map/
+- `main` 에 push 하면 GitHub Actions(`.github/workflows/deploy.yml`)가 자동으로 빌드·배포합니다.
+- Mapbox 토큰은 저장소 Settings → Secrets → `VITE_MAPBOX_TOKEN` 에 있습니다. 토큰을 바꾸면 여기도 갱신하세요.
