@@ -55,14 +55,24 @@ function RestaurantCard({ restaurant: r, onBack, onClose }) {
         <span className="chip chip--category" style={{ '--chip': CATEGORY_COLOR[r.category] }}>
           {categoryLabel(r.category)}
         </span>
-        <span className="chip">{r.price}</span>
-        <span className="chip">★ {r.rating.toFixed(1)}</span>
+        {r.price && <span className="chip">{r.price}</span>}
+        {r.rating != null && <span className="chip">★ {r.rating.toFixed(1)}</span>}
       </div>
       <dl className="card__facts">
-        <dt>추천 메뉴</dt>
-        <dd>{r.menu}</dd>
-        <dt>한줄평</dt>
-        <dd>{r.review}</dd>
+        {r.menu && (
+          <>
+            <dt>추천 메뉴</dt>
+            <dd>{r.menu}</dd>
+          </>
+        )}
+        {r.review ? (
+          <>
+            <dt>한줄평</dt>
+            <dd>{r.review}</dd>
+          </>
+        ) : (
+          <dd className="card__empty">아직 평가가 없습니다</dd>
+        )}
       </dl>
     </>
   )
@@ -111,7 +121,7 @@ function BuildingList({ group, onSelect, onClose }) {
               <span className="list__floor">{r.floor}</span>
               <span className="list__name">{r.name}</span>
               <span className="list__meta">
-                {categoryLabel(r.category)} · {r.price}
+                {[categoryLabel(r.category), r.price].filter(Boolean).join(' · ')}
               </span>
               <span className="list__dot" style={{ background: CATEGORY_COLOR[r.category] }} />
             </button>

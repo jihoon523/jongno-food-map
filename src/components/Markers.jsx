@@ -3,6 +3,9 @@ import mapboxgl from 'mapbox-gl'
 import { CATEGORY_COLOR } from '../lib/restaurants'
 import './Markers.css'
 
+// 이 줌보다 작으면 개별 식당 이름을 숨긴다
+const LABEL_MIN_ZOOM = 16.8
+
 /**
  * 식당 목록을 지도 위 마커로 그린다.
  * 같은 building 값을 가진 식당들은 하나의 마커로 묶어 개수를 표시한다.
@@ -45,6 +48,19 @@ export default function Markers({ map, restaurants, onSelect }) {
 
     return () => markers.forEach((m) => m.remove())
   }, [map, restaurants, onSelect])
+
+  // 줌이 낮을 땐 개별 식당 라벨을 숨겨 겹침을 줄인다 (건물 마커 라벨은 항상 표시)
+  useEffect(() => {
+    if (!map) return
+    const container = map.getContainer()
+    const update = () => container.classList.toggle('labels-hidden', map.getZoom() < LABEL_MIN_ZOOM)
+    update()
+    map.on('zoom', update)
+    return () => {
+      map.off('zoom', update)
+      container.classList.remove('labels-hidden')
+    }
+  }, [map])
 
   return null
 }

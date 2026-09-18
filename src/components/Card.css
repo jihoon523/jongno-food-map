@@ -119,6 +119,12 @@
   margin: 0;
 }
 
+.card__empty {
+  grid-column: 1 / -1;
+  color: var(--muted);
+  font-size: 13px;
+}
+
 /* 층 탭 */
 .floors {
   display: flex;

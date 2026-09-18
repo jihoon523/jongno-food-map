@@ -9,7 +9,25 @@
     "menu": "메밀국수",
     "rating": 4.3,
     "review": "광화문 메밀국수의 기준. 점심엔 줄 서야 함",
-    "coords": [126.97988, 37.57085]
+    "coords": [
+      126.97988,
+      37.57085
+    ]
+  },
+  {
+    "id": "cheongjinok",
+    "name": "청진옥",
+    "category": "noodle",
+    "price": "1만원대",
+    "floor": "1F",
+    "building": "르메이에르 종로타운",
+    "menu": "해장국",
+    "rating": 4.2,
+    "review": "1937년부터 이어온 종로 해장국집",
+    "coords": [
+      126.97988,
+      37.57085
+    ]
   },
   {
     "id": "seorin-nakji",
@@ -21,7 +39,25 @@
     "menu": "낙지볶음, 조개탕",
     "rating": 4.1,
     "review": "매운 낙지볶음에 조개탕 조합이 정석",
-    "coords": [126.97988, 37.57085]
+    "coords": [
+      126.97988,
+      37.57085
+    ]
+  },
+  {
+    "id": "gamchon",
+    "name": "감촌",
+    "category": "korean",
+    "price": "1만원대",
+    "floor": "1F",
+    "building": "르메이에르 종로타운",
+    "menu": "순두부찌개, 청국장",
+    "rating": 4,
+    "review": "든든한 한식 점심, 회전이 빠름",
+    "coords": [
+      126.97988,
+      37.57085
+    ]
   },
   {
     "id": "haori",
@@ -33,31 +69,400 @@
     "menu": "짬뽕, 탕수육",
     "rating": 3.9,
     "review": "직장인 점심 중식 무난",
-    "coords": [126.97988, 37.57085]
+    "coords": [
+      126.97988,
+      37.57085
+    ]
   },
   {
-    "id": "gamchon",
-    "name": "감촌",
+    "id": "yomat",
+    "name": "요맛 광화문점",
     "category": "korean",
     "price": "1만원대",
-    "floor": "1F",
+    "floor": "B1",
     "building": "르메이에르 종로타운",
-    "menu": "순두부찌개, 청국장",
-    "rating": 4.0,
-    "review": "든든한 한식 점심, 회전이 빠름",
-    "coords": [126.97988, 37.57085]
+    "menu": "덮밥",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97988,
+      37.57085
+    ]
   },
   {
-    "id": "cheongjinok",
-    "name": "청진옥",
+    "id": "hongchao",
+    "name": "홍차오",
+    "category": "chinese",
+    "price": "1만원대",
+    "floor": "B1",
+    "building": "르메이에르 종로타운",
+    "menu": "중식",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97988,
+      37.57085
+    ]
+  },
+  {
+    "id": "pho-hanoi",
+    "name": "포하노이",
     "category": "noodle",
     "price": "1만원대",
+    "floor": "B1",
+    "building": "그랑서울",
+    "menu": "쌀국수",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.9814,
+      37.571
+    ]
+  },
+  {
+    "id": "jeongnam",
+    "name": "정남미명과 종로2호점",
+    "category": "cafe",
+    "price": "5천원대",
     "floor": "1F",
-    "building": "",
-    "menu": "해장국",
-    "rating": 4.2,
-    "review": "1937년부터 이어온 종로 해장국집",
-    "coords": [126.97941, 37.57172]
+    "building": "그랑서울",
+    "menu": "떡, 디저트",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.9814,
+      37.571
+    ]
+  },
+  {
+    "id": "lee-gimbap",
+    "name": "리김밥 광화문 D타워점",
+    "category": "korean",
+    "price": "1만원대",
+    "floor": "B1",
+    "building": "D타워",
+    "menu": "김밥",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97893,
+      37.57092
+    ]
+  },
+  {
+    "id": "susu-coffee",
+    "name": "수수커피 디타워",
+    "category": "cafe",
+    "price": "5천원대",
+    "floor": "1F",
+    "building": "D타워",
+    "menu": "커피",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97893,
+      37.57092
+    ]
+  },
+  {
+    "id": "alibaba-gimbap",
+    "name": "알리바바 쏙쏙김밥 종로타워점",
+    "category": "korean",
+    "price": "1만원대",
+    "floor": "B1",
+    "building": "종로타워",
+    "menu": "김밥",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.98339,
+      37.57057
+    ]
+  },
+  {
+    "id": "starbucks-jongno-r",
+    "name": "스타벅스 더종로R점",
+    "category": "cafe",
+    "price": "5천원대",
+    "floor": "1F",
+    "building": "종로타워",
+    "menu": "리저브 커피",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.98339,
+      37.57057
+    ]
+  },
+  {
+    "id": "onsen",
+    "name": "온센 광화문점",
+    "category": "japanese",
+    "price": "1만원대",
+    "floor": "B1",
+    "building": "SFC몰",
+    "menu": "돈카츠",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97779,
+      37.56837
+    ]
+  },
+  {
+    "id": "momoya",
+    "name": "모모야 광화문점",
+    "category": "japanese",
+    "price": "1만원대",
+    "floor": "B1",
+    "building": "SFC몰",
+    "menu": "일식",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97779,
+      37.56837
+    ]
+  },
+  {
+    "id": "noya",
+    "name": "노야 광화문SFC",
+    "category": "japanese",
+    "price": "1만원대",
+    "floor": "B1",
+    "building": "SFC몰",
+    "menu": "라멘",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97779,
+      37.56837
+    ]
+  },
+  {
+    "id": "bodol-miyeok",
+    "name": "보돌미역 광화문점",
+    "category": "korean",
+    "price": "1만원대",
+    "floor": "B1",
+    "building": "SFC몰",
+    "menu": "미역국",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97779,
+      37.56837
+    ]
+  },
+  {
+    "id": "ildossi",
+    "name": "일도씨닭갈비",
+    "category": "korean",
+    "price": "1만원대",
+    "floor": "B1",
+    "building": "SFC몰",
+    "menu": "닭갈비",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97779,
+      37.56837
+    ]
+  },
+  {
+    "id": "the-place",
+    "name": "더플레이스 광화문SFC점",
+    "category": "western",
+    "price": "2만원대",
+    "floor": "B1",
+    "building": "SFC몰",
+    "menu": "피자, 파스타",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97779,
+      37.56837
+    ]
+  },
+  {
+    "id": "shaibana",
+    "name": "샤이바나 광화문점",
+    "category": "western",
+    "price": "2만원대",
+    "floor": "B1",
+    "building": "SFC몰",
+    "menu": "이탈리안",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97779,
+      37.56837
+    ]
+  },
+  {
+    "id": "cuchara",
+    "name": "쿠차라",
+    "category": "western",
+    "price": "1만원대",
+    "floor": "B1",
+    "building": "SFC몰",
+    "menu": "멕시칸",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97779,
+      37.56837
+    ]
+  },
+  {
+    "id": "d-lifestyle",
+    "name": "디라이프스타일키친",
+    "category": "western",
+    "price": "2만원대",
+    "floor": "B1",
+    "building": "SFC몰",
+    "menu": "양식",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97779,
+      37.56837
+    ]
+  },
+  {
+    "id": "twoplus-steak",
+    "name": "투뿔 코리안 스테이크하우스",
+    "category": "meat",
+    "price": "3만원대",
+    "floor": "B1",
+    "building": "SFC몰",
+    "menu": "한우 스테이크",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97779,
+      37.56837
+    ]
+  },
+  {
+    "id": "samwon-garden",
+    "name": "삼원가든 투뿔등심 광화문점",
+    "category": "meat",
+    "price": "4만원대",
+    "floor": "B1",
+    "building": "SFC몰",
+    "menu": "한우 등심",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97779,
+      37.56837
+    ]
+  },
+  {
+    "id": "laderach",
+    "name": "레더라",
+    "category": "cafe",
+    "price": "1만원대",
+    "floor": "B1",
+    "building": "SFC몰",
+    "menu": "초콜릿, 디저트",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97779,
+      37.56837
+    ]
+  },
+  {
+    "id": "mahogany-sfc",
+    "name": "마호가니 커피 SFC점",
+    "category": "cafe",
+    "price": "5천원대",
+    "floor": "B1",
+    "building": "SFC몰",
+    "menu": "커피",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97779,
+      37.56837
+    ]
+  },
+  {
+    "id": "hotel-douce",
+    "name": "오뗄두스 광화문점",
+    "category": "cafe",
+    "price": "1만원대",
+    "floor": "B1",
+    "building": "SFC몰",
+    "menu": "디저트",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97779,
+      37.56837
+    ]
+  },
+  {
+    "id": "felt",
+    "name": "펠트 청계천점",
+    "category": "cafe",
+    "price": "5천원대",
+    "floor": "1F",
+    "building": "시그니처타워",
+    "menu": "커피",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97882,
+      37.56879
+    ]
+  },
+  {
+    "id": "brooklyn-burger",
+    "name": "브루클린더버거조인트 청계천점",
+    "category": "western",
+    "price": "1만원대",
+    "floor": "1F",
+    "building": "시그니처타워",
+    "menu": "수제버거",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97882,
+      37.56879
+    ]
+  },
+  {
+    "id": "crispy-fresh",
+    "name": "크리스피프레시 광화문점",
+    "category": "western",
+    "price": "1만원대",
+    "floor": "1F",
+    "building": "케이스퀘어시티",
+    "menu": "샐러드",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.9802,
+      37.56856
+    ]
+  },
+  {
+    "id": "allegria",
+    "name": "알레그리아 케이스퀘어시티점",
+    "category": "cafe",
+    "price": "5천원대",
+    "floor": "1F",
+    "building": "케이스퀘어시티",
+    "menu": "커피",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.9802,
+      37.56856
+    ]
   },
   {
     "id": "head-steak",
@@ -67,8 +472,851 @@
     "floor": "1F",
     "building": "",
     "menu": "스테이크",
-    "rating": 4.0,
+    "rating": 4,
     "review": "가성비 스테이크, 저녁 예약 권장",
-    "coords": [126.97952, 37.57238]
+    "coords": [
+      126.97952,
+      37.57238
+    ]
+  },
+  {
+    "id": "heungjinok",
+    "name": "흥진옥",
+    "category": "noodle",
+    "price": "1만원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "설렁탕",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.98026,
+      37.57133
+    ]
+  },
+  {
+    "id": "tiger-dosakmyeon",
+    "name": "호랑이 도삭면 광화문점",
+    "category": "chinese",
+    "price": "1만원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "도삭면",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.9797,
+      37.57173
+    ]
+  },
+  {
+    "id": "gureumsan",
+    "name": "구름산추어탕 광화문점",
+    "category": "korean",
+    "price": "1만원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "추어탕",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.98035,
+      37.57288
+    ]
+  },
+  {
+    "id": "ggangjang",
+    "name": "깡장집",
+    "category": "korean",
+    "price": "1만원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "강된장 비빔밥",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.98182,
+      37.57206
+    ]
+  },
+  {
+    "id": "uncle-joe",
+    "name": "엉클조",
+    "category": "western",
+    "price": "1만원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "소시지",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.98232,
+      37.57223
+    ]
+  },
+  {
+    "id": "kongmaru",
+    "name": "콩마루",
+    "category": "korean",
+    "price": "1만원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "콩나물국밥",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.98164,
+      37.57247
+    ]
+  },
+  {
+    "id": "yeolchajip",
+    "name": "열차집",
+    "category": "korean",
+    "price": "1만원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "빈대떡, 굴전",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.98288,
+      37.57175
+    ]
+  },
+  {
+    "id": "sambong-dodam",
+    "name": "삼봉도담",
+    "category": "korean",
+    "price": "1만원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "한식",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.98256,
+      37.57297
+    ]
+  },
+  {
+    "id": "gyeol",
+    "name": "결 by Bean Brothers",
+    "category": "cafe",
+    "price": "5천원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "커피",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.98346,
+      37.57199
+    ]
+  },
+  {
+    "id": "locolab",
+    "name": "LOCOLAB",
+    "category": "cafe",
+    "price": "5천원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "커피",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.98122,
+      37.57328
+    ]
+  },
+  {
+    "id": "om",
+    "name": "Om Restaurant",
+    "category": "western",
+    "price": "2만원대",
+    "floor": "B1",
+    "building": "",
+    "menu": "인도 커리",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97609,
+      37.57053
+    ]
+  },
+  {
+    "id": "gomguksi",
+    "name": "곰국시집",
+    "category": "noodle",
+    "price": "1만원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "곰국시",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97954,
+      37.56799
+    ]
+  },
+  {
+    "id": "jeiljemyeonso",
+    "name": "무교주가 제일제면소",
+    "category": "noodle",
+    "price": "1만원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "칼국수",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.9796,
+      37.56852
+    ]
+  },
+  {
+    "id": "hangune",
+    "name": "항구네",
+    "category": "korean",
+    "price": "1만원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "생선구이",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97963,
+      37.56846
+    ]
+  },
+  {
+    "id": "namsan-bokjip",
+    "name": "남산복집",
+    "category": "korean",
+    "price": "2만원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "복지리",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97958,
+      37.56874
+    ]
+  },
+  {
+    "id": "obok-susan",
+    "name": "오복수산참치 광화문점",
+    "category": "japanese",
+    "price": "3만원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "참치회",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97872,
+      37.56784
+    ]
+  },
+  {
+    "id": "brazuca",
+    "name": "브라주카 그릴",
+    "category": "meat",
+    "price": "2만원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "슈하스코",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97877,
+      37.56788
+    ]
+  },
+  {
+    "id": "changgo43",
+    "name": "창고43",
+    "category": "meat",
+    "price": "3만원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "한우",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97885,
+      37.56794
+    ]
+  },
+  {
+    "id": "hanradam",
+    "name": "한라담",
+    "category": "korean",
+    "price": "1만원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "제주 한식",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97862,
+      37.56794
+    ]
+  },
+  {
+    "id": "gontran",
+    "name": "곤트란쉐리에",
+    "category": "cafe",
+    "price": "5천원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "베이커리",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97812,
+      37.56806
+    ]
+  },
+  {
+    "id": "sanchaehyang",
+    "name": "산채향",
+    "category": "korean",
+    "price": "1만원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "산채비빔밥",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97805,
+      37.56884
+    ]
+  },
+  {
+    "id": "seongbuk-coffee",
+    "name": "성북동커피",
+    "category": "cafe",
+    "price": "5천원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "커피",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97888,
+      37.5698
+    ]
+  },
+  {
+    "id": "songjeon",
+    "name": "송전일식",
+    "category": "japanese",
+    "price": "2만원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "일식",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97867,
+      37.56976
+    ]
+  },
+  {
+    "id": "dreamlike",
+    "name": "드림라이크커피",
+    "category": "cafe",
+    "price": "5천원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "커피",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97911,
+      37.56954
+    ]
+  },
+  {
+    "id": "minso-hanwoo",
+    "name": "민소한우",
+    "category": "meat",
+    "price": "3만원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "한우",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97949,
+      37.56988
+    ]
+  },
+  {
+    "id": "sinseong-ilsik",
+    "name": "신성일식",
+    "category": "japanese",
+    "price": "2만원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "일식",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97943,
+      37.56968
+    ]
+  },
+  {
+    "id": "papermache",
+    "name": "페이퍼마쉐",
+    "category": "cafe",
+    "price": "5천원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "커피",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97943,
+      37.56959
+    ]
+  },
+  {
+    "id": "daeseong-golbaengi",
+    "name": "대성골뱅이",
+    "category": "korean",
+    "price": "2만원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "골뱅이무침",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.9796,
+      37.56823
+    ]
+  },
+  {
+    "id": "donghaedo",
+    "name": "동해도",
+    "category": "japanese",
+    "price": "2만원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "초밥",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97943,
+      37.5684
+    ]
+  },
+  {
+    "id": "harahara",
+    "name": "하라하라",
+    "category": "japanese",
+    "price": "2만원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "이자카야",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97943,
+      37.56848
+    ]
+  },
+  {
+    "id": "mugyo-dakdoritang",
+    "name": "무교동닭도리탕",
+    "category": "korean",
+    "price": "2만원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "닭볶음탕",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97962,
+      37.5684
+    ]
+  },
+  {
+    "id": "yeongdeok-hoe",
+    "name": "영덕회식당",
+    "category": "korean",
+    "price": "2만원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "물회",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97937,
+      37.56877
+    ]
+  },
+  {
+    "id": "ilsik-samwon",
+    "name": "일식삼원",
+    "category": "japanese",
+    "price": "2만원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "초밥, 해산물",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97963,
+      37.56878
+    ]
+  },
+  {
+    "id": "jeju-heukdon",
+    "name": "제주흑돈",
+    "category": "meat",
+    "price": "2만원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "제주 흑돼지",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97823,
+      37.56882
+    ]
+  },
+  {
+    "id": "ihwasu",
+    "name": "이화수전통육개장",
+    "category": "noodle",
+    "price": "1만원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "육개장",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.98009,
+      37.56773
+    ]
+  },
+  {
+    "id": "songa-myeongga",
+    "name": "손가명가",
+    "category": "korean",
+    "price": "1만원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "닭요리",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.98022,
+      37.56805
+    ]
+  },
+  {
+    "id": "haengbok-jeonjip",
+    "name": "행복전집",
+    "category": "korean",
+    "price": "1만원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "전, 막걸리",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.98097,
+      37.56784
+    ]
+  },
+  {
+    "id": "andong-guksi",
+    "name": "안동국시",
+    "category": "noodle",
+    "price": "1만원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "안동국시",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.98137,
+      37.56939
+    ]
+  },
+  {
+    "id": "byeongcheon-sundae",
+    "name": "병천순대",
+    "category": "noodle",
+    "price": "1만원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "순대국",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.98106,
+      37.56982
+    ]
+  },
+  {
+    "id": "abiko",
+    "name": "아비꼬",
+    "category": "japanese",
+    "price": "1만원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "카레",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.98112,
+      37.56988
+    ]
+  },
+  {
+    "id": "jongno-bunsik",
+    "name": "종로분식",
+    "category": "korean",
+    "price": "1만원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "분식",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.98073,
+      37.56995
+    ]
+  },
+  {
+    "id": "dadong-kalguksu",
+    "name": "다동칼국수",
+    "category": "noodle",
+    "price": "1만원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "칼국수",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.98162,
+      37.56822
+    ]
+  },
+  {
+    "id": "naju-gomtang",
+    "name": "권명옥 가마솥 나주곰탕",
+    "category": "noodle",
+    "price": "1만원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "나주곰탕",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.98031,
+      37.5679
+    ]
+  },
+  {
+    "id": "mugyo-dakgomtang",
+    "name": "무교동 닭곰탕",
+    "category": "noodle",
+    "price": "1만원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "닭곰탕",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.98051,
+      37.56782
+    ]
+  },
+  {
+    "id": "yukmi-gotgan",
+    "name": "육미곳간",
+    "category": "meat",
+    "price": "2만원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "고기",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.98017,
+      37.56778
+    ]
+  },
+  {
+    "id": "mijin-ilsik",
+    "name": "미진일식",
+    "category": "japanese",
+    "price": "2만원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "일식",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.98012,
+      37.56774
+    ]
+  },
+  {
+    "id": "knotted",
+    "name": "노티드 종각 하이커",
+    "category": "cafe",
+    "price": "5천원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "도넛",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.98161,
+      37.56849
+    ]
+  },
+  {
+    "id": "hansik-iyagi",
+    "name": "한식이야기",
+    "category": "korean",
+    "price": "1만원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "한식",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.98166,
+      37.56858
+    ]
+  },
+  {
+    "id": "pyeonggaok",
+    "name": "평가옥",
+    "category": "noodle",
+    "price": "1만원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "평양냉면",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.98306,
+      37.56917
+    ]
+  },
+  {
+    "id": "tosokjeong",
+    "name": "토속정",
+    "category": "korean",
+    "price": "1만원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "한식",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.98321,
+      37.56919
+    ]
+  },
+  {
+    "id": "ililhyang",
+    "name": "일일향 을지로점",
+    "category": "chinese",
+    "price": "1만원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "중식",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.98233,
+      37.56838
+    ]
+  },
+  {
+    "id": "la-grillia",
+    "name": "라그릴리아",
+    "category": "western",
+    "price": "2만원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "이탈리안",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97879,
+      37.56941
+    ]
+  },
+  {
+    "id": "butchers-cut",
+    "name": "붓처스컷",
+    "category": "meat",
+    "price": "3만원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "스테이크",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97799,
+      37.56842
+    ]
+  },
+  {
+    "id": "ganga",
+    "name": "강가",
+    "category": "western",
+    "price": "2만원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "인도 커리",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97779,
+      37.56846
+    ]
+  },
+  {
+    "id": "ori-madang",
+    "name": "오리마당",
+    "category": "korean",
+    "price": "2만원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "오리 요리",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97748,
+      37.56873
+    ]
+  },
+  {
+    "id": "salad-moon",
+    "name": "샐러드문",
+    "category": "western",
+    "price": "1만원대",
+    "floor": "1F",
+    "building": "",
+    "menu": "샐러드",
+    "rating": null,
+    "review": "",
+    "coords": [
+      126.97761,
+      37.56883
+    ]
   }
 ]

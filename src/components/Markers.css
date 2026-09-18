@@ -51,3 +51,8 @@
 .marker:hover .marker__dot {
   transform: scale(1.15);
 }
+
+/* 줌이 낮을 땐 개별 식당 라벨 숨김 (호버 시에는 표시) */
+.labels-hidden .marker:not(.marker--building):not(:hover) .marker__label {
+  display: none;
+}
